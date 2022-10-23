@@ -1,0 +1,86 @@
+:root{
+    --left-space: 48px;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("https://fonts.googleapis.com/css?family=Roboto");
+}
+
+body {
+     margin: 0;
+     padding: 0;
+     font-family: "Comic Sans MS";
+ }
+*{
+    /*
+    background: -webkit-linear-gradient(90deg,#8f6B29, #FDE08D, #DF9F28);
+    background: linear-gradient(90deg,#8f6B29, #FDE08D, #DF9F28);
+     */
+    font-family: "Roboto";
+    outline: 1px solid red;
+}
+
+a {
+    color: red;
+}
+
+.content {
+    min-height: 100vh;
+    display: flex;
+}
+
+/* Image */
+
+.image-section {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background-position: center center;
+    background-image: url(https://images.unsplash.com/photo-1666426446550-89e999b8ad0a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1287&q=80);
+    background-size: cover;
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    text-align: center;
+}
+
+.banner {
+    display: flex;
+    background-position: center center;
+    opacity: 100%;
+    justify-content: center;
+    align-content: center;
+    margin-top: 20vh;
+    padding: 16px 0;
+    background-color: rgba(0, 0, 0, 0.4)
+}
+
+.banner img {
+    height: 200px;
+
+}
+.banner h1 {
+    font-family: MedievalSharp, "Comic Sans MS";
+    font-size: 5.5rem;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 800;
+    line-height: 26.399999618530273px;
+}
+
+/* Text */
+
+.text-section {
+    margin-top: 50px;
+
+    flex: 1;
+}
+
+/* Form */
+
+.form {
+    flex: 1;
+
+}
